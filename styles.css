@@ -1,8 +1,36 @@
 body{
+    font-family: 'Teko', sans-serif;
+    display: flexbox;
+    background-color: #050517;
+    color: white;
     
 }
-
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
 img {
     width: 300px;
     height: 300px;
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#top-section {
+    background-color: #400406;
+    border-radius: 10px;
+    padding: 2%;
+}
+#mid-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
